@@ -14,9 +14,9 @@ This is a comprehensive report of what people watched on Netflix over a six mont
 
 In total, this report covers more than 18,000 titles — representing 99% of all viewing on Netflix — and nearly 100 billion hours viewed.
 
-## Source Used
+## Data Source Used
 
-"Netflix analysis.xls" file is attached
+The primary dataset used for this analysis in files named Netflix analysis.xls. The file contains information about date released, hours viewed and global availability. I have added other columns for my analysis as mentioned below.
 
 
 ## Tools Used
@@ -24,39 +24,60 @@ In total, this report covers more than 18,000 titles — representing 99% of all
 Microsoft Excel
 
 
+## Analysis
+
+I started by removing Duplicates first and filled the mising values from the sources available on netflix about TV shows and movies to maintain data integrity.
+
+1.	From the given Release date, I have separated **Month**, **Year** and **Day** in different columns.
+
+2.	**Distinguishing Content** - I have categorised titles whether its a Movie or a TV Show. To distinguish between movies and TV shows in the dataset, I employed a simple and easy rule: identifying the keyword **'Season'** in the title. This pattern appeared consistently across the data and proved perfect for distinguishing content.
+
+3.	**Analyzing Viewing Trends**
+
+  One of the first exploratory steps was to visualize how the cumulative hours viewed changed over time, which required parsing the release dates and grouping the data by year.
 
 
-1.	Removed Duplicates
-2.	filling the missing values
 
-1.	From the given Release date, I have separated Month, Year and Day in different columns.
 
-2.	 Distinguishing Content - I have categorised titles whether its a Movie or a TV Show. To distinguish between movies and TV shows in the dataset, I employed a simple and easy rule: identifying the keyword 'Season' in the title. This pattern appeared consistently across the data and proved perfect for distinguishing content.
+![cumulative hours](https://github.com/Ric222/Netflix-Engagement-Report-2023/assets/104567667/6ad69227-3299-4409-88df-31ee54c5e98c)
 
-3.	Analyzing Viewing  Trends
 
-One of the first exploratory steps was to visualize how the cumulative hours viewed changed over time, which required parsing the release dates and grouping the data by year.
 
-Graph
 
 The graph illustrates a significant surge, especially noticeable after 2016.  It indicates not only an increase in number of viewers but also an increase in time spent by consumers on Netflix content which indicates strong viewer retention. This surge may be linked to Netflix's investment in creating great content and global presence.
-Additionally, the absence of a growth plateau in the graph suggests that Netflix has been successful in responding to consumer demand captivating audience with its great content.
+
+Additionally, the absence of a growth plateau in the graph suggests that Netflix has been successful in responding to consumer demand thus captivating audience with its great content.
 
 
-4.	Genre Analysis
+4.	**Genre Analysis**
 
 Understanding viewer preference is of supreme importance. The top 10 genres that captivated the audience are:
 
-Graph
-
-1.	Comedy and Short form content steals the show.
-2.	Comedy interwined with Romance claims a significant portion of viewing hours.
-3.	The combination of Comedy, Drama, and Romance genres strikes a chord with audience
-
-4.	It is evident that that there is a wide range of genre preferences by consumers encompassing both short-form entertainment and intellectually stimulating documentaries.
-
-5.	Together, these genres reflect the diverse preferences of a global audience, highlighting Netflix's significant impact on a global scale.
 
 
-The insights from this analysis can help Netflix in refining its content strategy to match viewer preferences. These can be applied to other content platforms, providing a blueprint for data-driven decision-making in the entertainment industry.
+![top 10 genres](https://github.com/Ric222/Netflix-Engagement-Report-2023/assets/104567667/65dfc956-5951-4c9b-a005-e0bb031d23c5)
+
+
+
+
+
+
+
+-	Comedy and Short form content steals the show.
+  
+-	Comedy interwined with Romance claims a significant portion of viewing hours.
+
+-	The combination of Comedy, Drama, and Romance genres strikes a chord with audience
+
+-	It is evident that that there is a wide range of genre preferences by consumers encompassing both short-form entertainment and intellectually stimulating documentaries.
+
+-	Together, these genres reflect the diverse preferences of a global audience, highlighting Netflix's significant impact on a global scale.
+
+
+
+## Conclusion
+
+The insights from this analysis can help Netflix in refining its content strategy to match viewer preferences.
+
+These can be applied to other content platforms as well, providing a blueprint for data-driven decision-making in the entertainment industry.
 
