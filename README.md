@@ -1,4 +1,4 @@
-# What We Watched: A Netflix Engagement Report 2023
+# What We Watched: A Netflix Engagement Report 2023  📺
 
 ## Project Overview
 
@@ -73,6 +73,23 @@ Understanding viewer preference is of supreme importance. The top 10 genres that
 
 -	Together, these genres reflect the diverse preferences of a global audience, highlighting Netflix's significant impact on a global scale.
 
+5.	**Pareto Rules on Netflix**
+
+
+![Pareto Chart](https://github.com/Ric222/Netflix-Engagement-Report-2023/assets/104567667/d7e5009b-51d2-4108-9bf5-77db19466a38)
+
+
+ 
+ Of the 18000 titles Netflix has, more than 90% of viewing hours comes from top 50 shows.The top 50 titles contribute to majority of viewing time and has highest popularity or engagement among viewers.
+ 
+ One of the interesting observation is that older series seasons are heavily consumed and make up a large portion of the top 100 titles, with key ones , Breaking Bad, The black list, 
+  Lucifer, The walking dead, Brooklyn Nine-Nine, Friends, Better call Saul, Greys anatomy, Peaky blinders, The big bang theory.
+
+The astonishing fact is that 250 million usersworldwide have collectively consumed  92 billion hours of content on Netflix within a span of 6 months. 
+
+According to Forbes, this equates to approximately **11,000 years** worth of television viewing. 😀
+
+   
 
 
 ## Conclusion
